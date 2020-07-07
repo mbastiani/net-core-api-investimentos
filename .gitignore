@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/*
+/Investimentos.Api/obj/*
+/Investimentos.Api/bin/*
+
+/Investimentos.Core/obj/*
+/Investimentos.Core/bin/*
+
+/Investimentos.Domain/obj/*
+/Investimentos.Domain/bin/*
+
+/Investimentos.Infra/obj/*
+/Investimentos.Infra/bin/*
+
+/Investimentos.Tests/obj/*
+/Investimentos.Tests/bin/*
