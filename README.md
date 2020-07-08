@@ -8,7 +8,7 @@ Essa API foi dividida em 4 projetos para melhor controle e separação de respon
 
 * Investimentos.Domain
 
-    * Implementa as classes e modelos da aplicação
+    * Implementa as classes e modelos da aplicação.
 
 
 * Investimentos.Service
