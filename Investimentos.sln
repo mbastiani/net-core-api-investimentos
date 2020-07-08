@@ -5,17 +5,17 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Api", "Investimentos.Api\Investimentos.Api.csproj", "{214606C8-DE30-419F-8FD2-F250C13F8EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Domain", "Investimentos.Domain\Investimentos.Domain.csproj", "{9ABFE55C-4D48-4BC6-A588-DC041AD99025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Domain", "Investimentos.Domain\Investimentos.Domain.csproj", "{9ABFE55C-4D48-4BC6-A588-DC041AD99025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Infra", "Investimentos.Infra\Investimentos.Infra.csproj", "{9D08141B-E2F2-408A-BD03-7A7883907C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Infra", "Investimentos.Infra\Investimentos.Infra.csproj", "{9D08141B-E2F2-408A-BD03-7A7883907C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Core", "Investimentos.Core\Investimentos.Core.csproj", "{8F1E7837-D781-41A1-A07D-CBC8C6667C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Service", "Investimentos.Service\Investimentos.Service.csproj", "{8F1E7837-D781-41A1-A07D-CBC8C6667C84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F59A3CD-2D78-433F-AB20-423D14AC0C3A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{83612169-0959-4324-BA85-9EEC311CFB8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Tests", "Investimentos.Tests\Investimentos.Tests.csproj", "{28EE4510-EF71-40E1-A3DE-B46BB054C5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Tests", "Investimentos.Tests\Investimentos.Tests.csproj", "{28EE4510-EF71-40E1-A3DE-B46BB054C5B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

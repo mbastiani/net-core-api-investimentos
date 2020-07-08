@@ -1,9 +1,4 @@
-﻿using Investimentos.Core;
-using Investimentos.Domain.DTOs;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
-using System;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Investimentos.Api.Controllers
 {

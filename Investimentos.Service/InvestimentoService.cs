@@ -2,15 +2,12 @@
 using Investimentos.Domain.Enums;
 using Investimentos.Domain.Interfaces.Clients;
 using Investimentos.Domain.Models;
-using Investimentos.Infra.Clients.Fundos;
-using Investimentos.Infra.Clients.RendaFixa;
-using Investimentos.Infra.Clients.TesouroDireto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Investimentos.Core
+namespace Investimentos.Service
 {
     public class InvestimentoService
     {

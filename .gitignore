@@ -6,8 +6,8 @@
 /Investimentos.Api/obj/*
 /Investimentos.Api/bin/*
 
-/Investimentos.Core/obj/*
-/Investimentos.Core/bin/*
+/Investimentos.Service/obj/*
+/Investimentos.Service/bin/*
 
 /Investimentos.Domain/obj/*
 /Investimentos.Domain/bin/*

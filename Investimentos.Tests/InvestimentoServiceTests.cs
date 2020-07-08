@@ -1,10 +1,7 @@
-﻿using Investimentos.Core;
-using Investimentos.Domain.Enums;
+﻿using Investimentos.Domain.Enums;
 using Investimentos.Domain.Interfaces.Clients;
 using Investimentos.Domain.Models;
-using Investimentos.Infra.Clients.Fundos;
-using Investimentos.Infra.Clients.RendaFixa;
-using Investimentos.Infra.Clients.TesouroDireto;
+using Investimentos.Service;
 using NSubstitute;
 using System;
 using System.Collections.Generic;
@@ -80,12 +77,12 @@ namespace Investimentos.Tests
         [InlineData(150, 100, TiposInvestimentoEnum.Fundos, 7.50)]
         [InlineData(150, 100, TiposInvestimentoEnum.RendaFixa, 2.50)]
         [InlineData(150, 100, TiposInvestimentoEnum.TesouroDireto, 5.00)]
+        [InlineData(100, 150, TiposInvestimentoEnum.TesouroDireto, 0)]
         public void CalculoIR_DeveRetornarOValorCorreto(decimal valorTotal, decimal valorInvestido, TiposInvestimentoEnum tipoInvestimento, decimal valorIR)
         {
             var result = _investimentoService.CalcularIR(valorTotal, valorInvestido, tipoInvestimento);
             Assert.Equal(valorIR, result);
         }
-
 
         public static IEnumerable<object[]> ObterDadosParaTesteCalculoValorResgate() => new List<object[]>
             {
